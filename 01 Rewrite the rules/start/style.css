@@ -1,0 +1,16 @@
+:root{
+    --cyan:#011212;
+    --orange: #ff8800;
+}
+
+body {
+    background-color: var(--cyan);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--orange);
+    ;
+    border-radius: 50px;
+}
