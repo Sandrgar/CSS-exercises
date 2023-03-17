@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/world-of-warcraft-cover.jpg);
+}
+
+main{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    width: 20rem;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:  5px solid rgb(32, 81, 245);
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+h3{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: azure;
+}
+img{
+    width: 100%;
+    opacity: 0.8;
+}
+
+.card-content{
+    margin: 20px 0px;
+    border: 5px solid rgb(255, 94, 0);
+    padding: 5px;
+    background-color: rgba(255, 94, 0, 0.356);
+    color: azure;
+
+
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+.text{
+    border:  5px solid rgb(32, 81, 245);
+    margin: 0 auto;
+    background-color: rgba(32, 82, 245, 0.384);
+}
